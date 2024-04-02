@@ -71,8 +71,8 @@ class RestartPlugin : FlutterPlugin, MethodCallHandler {
                 ))!!.component
             )
         )
-        overridePendingTransition(0,0)
         Runtime.getRuntime().exit(0)
+        overridePendingTransition(0,0)
     }
 
 }
